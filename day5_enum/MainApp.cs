@@ -31,6 +31,11 @@
 
             Color Test = Color.Red | Color.Green; // enum은 비트 연산이 가능하다.
             Console.WriteLine(Test); // Red(0000) | Green(0010) = 0010 -> Green
+
+
+            // 조건 null 연산자
+            int? i = null;
+            i = i ?? 10; // i가 null이면 10을 대입, null이 아니면 i의 값을 유지
         }
     }
 }
