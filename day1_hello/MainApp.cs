@@ -10,7 +10,7 @@ namespace day1_hello
         {
             if (args.Length == 0)
             {
-                WriteLine("Hello, World!"); // 원래는 System.Console.WriteLine()이지만 using static System.Console; 덕분에 WriteLine()으로 간단히 사용할 수 있습니다. Hello, World!를 프롬프트에 출력
+                WriteLine("Hello, World!"); // 원래는 System.Console.WriteLine()이지만 using static System.Console; 덕분에 WriteLine()으로 간단히 사용할 수 있다.
                 return;
             }
 
